@@ -7,8 +7,7 @@ const char* ssid = "cestlavie";
 const char* password = "eggtarts!";
 DHT dht(26, DHT11);
 
-// URL server lokal, ganti dengan IP lokal komputer Anda
-const char* serverName = "http://192.168.101.76:5000/post-data";  // Contoh IP lokal
+const char* serverName = "http://192.168.101.76:5000/post-data";
 
 void setup() {
   Serial.begin(115200);
